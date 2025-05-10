@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <header class="header-wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="img/name.png" alt="logo" loading="lazy" class="img-fluid">
+              </a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="fa-solid fa-bars"></i>
+              </button>
+
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav nav-menu">
+                    <li class="nav-item"><a class="nav-link active"href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                
+                </div>
+              </div>
+            </div>
+          </nav> 
+    </header>
+
+    <section id="home" class="banner-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 order-lg-1 order-2 banner-content">
+                    <h2 class="text-uppercase position-relative">Hello</h2>
+                    <h1 class="text-uppercase">I am Asif Ansari</h1>
+                    <h5 class="text-uppercase">Frontend Developer</h5>
+                    <div class="mt-5">
+                        <button class="main-btn primary-btn"><li class="nav-item list-unstyled"><a class="nav-link" href="#contact">HIRE ME</a></li></button>
+                        <button class="main-btn sec-btn ms-4">Downlod CV</button>
+                    </div>
+                </div>
+                <div class="col-lg-5 order-lg-2 order-1">
+                    <div class="top-right-img">
+                        <img src="img/home-right.webp" alt="" class="img-fluid" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <img src="img/about-us.webp" alt="about" class="img-fluid" loading="lazy">
+                </div>
+                <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+                    <div class="my-3 my-lg-0">
+                        <!-- <span class="subtitle">My About Details</span> -->
+                    <h2>About Me</h2>
+                    <p>I’m a front-end developer who loves bringing designs to life in the browser. With a solid grip on HTML, CSS, and JavaScript, I focus on creating clean, responsive user interfaces and constantly learning new tools and technologies.</p>
+                    </div>
+                    <div class="pt-4">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link active primary-btn" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="true">MY SKILLS</button>
+                            </li>
+                        </ul>
+
+                          <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab" tabindex="0">
+                                <div class="single-progress">
+                                    <h6>HTML</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width:95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                            <!-- <div class="progress-value">95%</div> -->
+                                        </div>
+                                    </div>
+                                    <span class="label">95%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6>CSS</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width:90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                            <!-- <div class="progress-value">95%</div> -->
+                                        </div>
+                                    </div>
+                                    <span class="label">90%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6>javascript</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width:85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                            <!-- <div class="progress-value">95%</div> -->
+                                        </div>
+                                    </div>
+                                    <span class="label">85%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6>jQuery</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width:80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                            <!-- <div class="progress-value">95%</div> -->
+                                        </div>
+                                    </div>
+                                    <span class="label">80%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6>Bootstrap</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width:85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                            <!-- <div class="progress-value">95%</div> -->
+                                        </div>
+                                    </div>
+                                    <span class="label">85%</span>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+    </section>
+
+    <section id="services" class="service-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-5">
+                    <h2>SERVICES</h2>
+                    <p>I offer services like front-end development, responsive web design, and PSD/Figma to HTML conversion.</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3">
+                        <div>
+                            <img src="img/mouse.webp" alt="service" class="img-fluid" loading="lazy">
+                        </div>
+                        <h5 class=" mt-4 mb-3">Web Development</h5>
+                        <p>I design and develop responsive, user-friendly websites using modern technologies like HTML, CSS, JavaScript.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3">
+                        <div>
+                            <img src="img/ui-ux.webp" alt="ui-ux" class="img-fluid" loading="lazy">
+                        </div>
+                        <h5 class=" mt-4 mb-3">PSD to HTML Website</h5>
+                        <p>PSD to HTML expert | Pixel-perfect conversion | Responsive and semantic code | Cross-browser compatible.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3">
+                        <div>
+                            <img src="img/ui-ux.webp" alt="ui-ux" class="img-fluid" loading="lazy">
+                        </div>
+                        <h5 class=" mt-4 mb-3">Fetch API</h5>
+                        <p>Used Fetch API for real-time data fetching, API integration, and asynchronous JavaScript operations.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3">
+                        <div>
+                            <img src="img/ui-ux.webp" alt="ui-ux" class="img-fluid" loading="lazy">
+                        </div>
+                        <h5 class="text-uppercase mt-4 mb-3">UI/UX</h5>
+                        <p>Converted Figma designs into responsive, user-friendly web interfaces.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-left mb-sm-5 mb-2">
+                    <h2>QUALITY WORK <br> RECENTLY DONE PROJECT</h2>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="pills-html-tab" data-bs-toggle="pill" data-bs-target="#pills-html" type="button" role="tab" aria-controls="pills-html" aria-selected="true">HTML & CSS</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-javascript-tab" data-bs-toggle="pill" data-bs-target="#pills-javascript" type="button" role="tab" aria-controls="pills-javascript" aria-selected="false">JavaScript</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-fetch-api-tab" data-bs-toggle="pill" data-bs-target="#pills-fetch-api" type="button" role="tab" aria-controls="pills-fetch-api" aria-selected="false">Fectch API</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-sass-tab" data-bs-toggle="pill" data-bs-target="#pills-sass" type="button" role="tab" aria-controls="pills-sass" aria-selected="false">SASS</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-bootstrap-tab" data-bs-toggle="pill" data-bs-target="#pills-bootstrap" type="button" role="tab" aria-controls="pills-bootstrap" aria-selected="false">Bootstrap</button>
+                    </li>
+                  </ul>
+                  
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-html" role="tabpanel" aria-labelledby="pills-html-tab">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-6 mb-4">
+                                <div class="card p-0">
+                                    <span style="background-image: url('./img/project/crazy-way.png');"></span>
+                                    <div class="detail text-center">
+                                        <h3 class="text-primary fs-2">Crazy-Way</h3>
+                                        <p class="text-dark">Crazy way page design PSD to HTML & CSS.</p>
+                                        <a href="#" class="main-btn mb-3" target="_blank">Go to site</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 mb-4">
+                                <div class="card p-0">
+                                    <span style="background-image: url('./img/project/american-food.png');"></span>
+                                    <div class="detail text-center">
+                                        <h3 class="text-primary fs-2">American-food</h3>
+                                        <p class="text-dark px-2">American food page design PSD to HTML & CSS.</p>
+                                        <a href="#" class="main-btn mb-3" target="_blank">Go to site</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 mb-4">
+                                <div class="card p-0">
+                                    <span style="background-image: url('./img/project/iddo.png');"></span>
+                                    <div class="detail text-center">
+                                        <h3 class="text-primary fs-2">IDDO</h3>
+                                        <p class="text-dark">Iddo page design PSD to HTML & CSS.</p>
+                                        <a href="https://whatsiif.github.io/iddo/" class="main-btn mb-3" target="_blank">Go to site</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 mb-4">
+                                <div class="card p-0">
+                                    <span style="background-image: url('./img/project/mogo.png');"></span>
+                                    <div class="detail text-center">
+                                        <h3 class="text-primary fs-2">MOGO</h3>
+                                        <p class="text-dark">MOGO page PSD to HTML & CSS.</p>
+                                        <a href="https://whatsiif.github.io/Mogo/" class="main-btn mb-3" target="_blank">Go to site</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- javascript projects -->
+                    <div class="tab-pane fade" id="pills-javascript" role="tabpanel" aria-labelledby="pills-javascript-tab">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6 mb-4">
+                                <div class="card p-0">
+                                    <span style="background-image: url('./img/project/calculator.png');"></span>
+                                    <div class="detail text-center">
+                                        <h3 class="text-primary fs-2">Calculator</h3>
+                                        <p class="text-dark">JavaScript Calculator Project. </p>
+                                        <a href="https://whatsiif.github.io/calculator/" class="main-btn mb-3" target="_blank">Go to site</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 mb-4">
+                                <div class="card p-0">
+                                    <span style="background-image: url('./img/project/stopwatch.png');"></span>
+                                    <div class="detail text-center">
+                                        <h3 class="text-primary fs-2">Stopwatch APP</h3>
+                                        <p class="text-dark">Responsive Stopwatch App – Built using HTML, CSS, and JavaScript.</p>
+                                        <a href="https://whatsiif.github.io/stopwatch/" class="main-btn mb-3" target="_blank">Go to site</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 mb-4">
+                                <div class="card p-0">
+                                    <span style="background-image: url('./img/project/clock.png');"></span>
+                                    <div class="detail text-center">
+                                        <h3 class="text-primary fs-2">Digital clock</h3>
+                                        <p class="text-dark">Live Digital Clock – Built with HTML, CSS, and JavaScript.</p>
+                                        <a href="https://whatsiif.github.io/Clock/" class="main-btn mb-3" target="_blank">Go to site</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fetch api projects -->
+                    <div class="tab-pane fade" id="pills-fetch-api" role="tabpanel" aria-labelledby="pills-fetch-api-tab">
+                        <div class="row">
+                            <div class="col-lg-6 mb-4" style="height: 400px;">
+                                <div class="card p-0">
+                                    <span style="background-image: url('./img/project/weather.png');"></span>
+                                    <div class="detail text-center">
+                                        <h3 class="text-primary fs-2">Weather-APP</h3>
+                                        <p class="text-dark">Weather app using API</p>
+                                        <a href="https://whatsiif.github.io/Weather-API/" class="main-btn mb-3" target="_blank">Go to site</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mb-4" style="height: 400px;">
+                                <div class="card p-0">
+                                    <span style="background-image: url('./img/project/fakestore.webp');"></span>
+                                    <div class="detail text-center">
+                                        <h3 class="text-primary fs-2">Fakestore-API</h3>
+                                        <p class="text-dark">Fetches and displays product data from the FakeStore API using JavaScript.</p>
+                                        <a href="https://whatsiif.github.io/Fakestore-API/" class="main-btn mb-3" target="_blank">Go to site</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- sass projects -->
+                    <div class="tab-pane fade" id="pills-sass" role="tabpanel" aria-labelledby="pills-sass-tab">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-6 mb-4">
+                                <div class="card p-0">
+                                    <span style="background-image: url('./img/project/prefix.png');"></span>
+                                    <div class="detail text-center">
+                                        <h3 class="text-primary fs-2"></h3>
+                                        <p class="text-dark"></p>
+                                        <a href="https://whatsiif.github.io/iddo/" class="main-btn mb-3" target="_blank">Go to site</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 mb-4">
+                                <div class="card p-0">
+                                    <span style="background-image: url('./img/project/');"></span>
+                                    <div class="detail text-center">
+                                        <h3 class="text-primary fs-2"></h3>
+                                        <p class="text-dark"></p>
+                                        <a href="https://whatsiif.github.io/iddo/" class="main-btn mb-3" target="_blank">Go to site</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 mb-4">
+                                <div class="card p-0">
+                                    <span style="background-image: url('./img/project/');"></span>
+                                    <div class="detail text-center">
+                                        <h3 class="text-primary fs-2"></h3>
+                                        <p class="text-dark"></p>
+                                        <a href="https://whatsiif.github.io/iddo/" class="main-btn mb-3" target="_blank">Go to site</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 mb-4">
+                                <div class="card p-0">
+                                    <span style="background-image: url('./img/project/');"></span>
+                                    <div class="detail text-center">
+                                        <h3 class="text-primary fs-2"></h3>
+                                        <p class="text-dark"></p>
+                                        <a href="https://whatsiif.github.io/iddo/" class="main-btn mb-3" target="_blank">Go to site</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- bootstrap projects -->
+                    <div class="tab-pane fade" id="pills-bootstrap" role="tabpanel" aria-labelledby="pills-bootstrap-tab">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-6 mb-4">
+                                <div class="card p-0">
+                                    <span style="background-image: url('./img/project/foodies.png');"></span>
+                                    <div class="detail text-center">
+                                        <h3 class="text-primary fs-2">Foodies Website</h3>
+                                        <p class="text-dark">Developed a fully responsive and mobile-friendly website using Bootstrap 5</p>
+                                        <a href="https://whatsiif.github.io/Foodies/" class="main-btn mb-3" target="_blank">Go to site</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 mb-4">
+                                <div class="card p-0">
+                                    <span style="background-image: url('./img/project/');"></span>
+                                    <div class="detail text-center">
+                                        <h3 class="text-primary fs-2">Comming soon</h3>
+                                        <p class="text-dark"></p>
+                                        <a href="#" class="main-btn mb-3" target="_blank">Go to site</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 mb-4">
+                                <div class="card p-0">
+                                    <span style="background-image: url('/img/project/');"></span>
+                                    <div class="detail text-center">
+                                        <h3 class="text-primary fs-2">Comming soon</h3>
+                                        <p class="text-dark"></p>
+                                        <a href="#" class="main-btn mb-3" target="_blank">Go to site</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 mb-4">
+                                <div class="card p-0">
+                                    <span style="background-image: url('/img/project/');"></span>
+                                    <div class="detail text-center">
+                                        <h3 class="text-primary fs-2">Comming soon</h3>
+                                        <p class="text-dark"></p>
+                                        <a href="#" class="main-btn mb-3" target="_blank">Go to site</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+                    
+                    <h2 id="contact">Hire Me.</h2>
+                    <div class="row call-details mb-4">
+                        <label class="col-sm-3 col-lg-4">Call me:</label>
+                        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-sm-start">
+                            <a href="javascript:void(0)">+91 8528858930</a>
+                        </div>
+                        <label class="col-sm-3 col-lg-4">Contact Email:</label>
+
+                        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-sm-start">
+                            <a href="mailto:iamasif11996@gmail.com">iamasif11996@gmail.com</a>
+                        </div>
+                    </div>
+                    <form>
+                        <div class="mb-4">
+                            <input type="text" class="form-control" placeholder="Your Name....." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <input type="tel" class="form-control" placeholder="Your phone....." autocomplete="o">
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" class="form-control" placeholder="Your email....." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <textarea cols="40" rows="4" class="form-control" placeholder="Write your message....." autocomplete="off">
+
+                            </textarea>
+                        </div>
+                        <button type="submit" class="main-btn primary-btn">Submit</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+                    <img src="img/contact.png" alt="contact" class="img-fluid" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer-wrapper mt-3 mt-sm-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-sm-6 text-center text-sm-start">
+                    <div class="footer-logo mb-3 mb-sm-0">
+                        <img src="img/name.png" alt="logo" loading="lazy" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <ul class="list-unstyled d-flex justify-content-center justify-content-sm-end justify-content-lg-center social-icon mb-3 mb-sm-0">
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="footer-text text-lg-start text-center mb-3 mb-lg-0">
+                        <p class="mb-0">Copyright &copy; 2025 <a href="#">AsIF</a>. All rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
